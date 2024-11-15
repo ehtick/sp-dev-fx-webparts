@@ -219,7 +219,7 @@
       "In this sample is possible to see how to implement Google Analytics through SPFx Extensions Application Customizers"
     ],
     "creationDateTime": "2020-10-07",
-    "updateDateTime": "2021-07-01",
+    "updateDateTime": "2024-10-23",
     "products": [
       "SharePoint"
     ],
@@ -230,7 +230,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.11.0"
+        "value": "1.20.0"
       }
     ],
     "tags": [],
@@ -2146,7 +2146,7 @@
       "This sample shows how to create a breadcrumb element and append it to your site via the SharePoint Framework Application Customizer extension."
     ],
     "creationDateTime": "2020-10-03",
-    "updateDateTime": "2020-10-03",
+    "updateDateTime": "2024-10-05",
     "products": [
       "SharePoint"
     ],
@@ -2157,7 +2157,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.11.0"
+        "value": "1.20.0"
       }
     ],
     "tags": [],
@@ -2186,70 +2186,6 @@
         "pictureUrl": "https://github.com/Swaminathan-Sriram.png",
         "name": "Swaminathan Sriram",
         "twitter": "SwaminathanSri3"
-      }
-    ],
-    "references": [
-      {
-        "name": "Overview of SharePoint Framework Extensions",
-        "description": "You can use SharePoint Framework (SPFx) Extensions to extend the SharePoint user experience. With SPFx Extensions, you can customize more facets of the SharePoint experience, including notification areas, toolbars, and list data views. SPFx Extensions are available in all Microsoft 365 subscriptions for production usage.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/extensions/overview-extensions?WT.mc_id=m365-15741-cxa"
-      },
-      {
-        "name": "Use page placeholders from Application Customizer",
-        "description": "Application Customizers provide access to well-known locations on SharePoint pages that you can modify based on your business and functional requirements. For example, you can create dynamic header and footer experiences that render across all the pages in SharePoint Online.",
-        "url": "https://docs.microsoft.com/sharepoint/dev/spfx/extensions/get-started/using-page-placeholder-with-extensions?WT.mc_id=m365-15741-cxa"
-      }
-    ]
-  },
-  {
-    "name": "pnp-sp-dev-spfx-extensions-react-application-collab-footer",
-    "source": "pnp",
-    "title": "Collaboration Footer Application Customizers",
-    "shortDescription": "This application customizer provides you the ability to include a footer designed for normal and group associated teams sites.",
-    "url": "https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-application-collab-footer",
-    "longDescription": [
-      "This application customizer provides you the ability to include a footer designed for normal and group associated teams sites."
-    ],
-    "creationDateTime": "2020-01-01",
-    "updateDateTime": "2020-01-01",
-    "products": [
-      "SharePoint"
-    ],
-    "metadata": [
-      {
-        "key": "CLIENT-SIDE-DEV",
-        "value": "React"
-      },
-      {
-        "key": "SPFX-VERSION",
-        "value": "1.4.0"
-      }
-    ],
-    "tags": [],
-    "categories": [
-      "SPFX-APPLICATION-EXTENSION"
-    ],
-    "thumbnails": [
-      {
-        "type": "image",
-        "order": 100,
-        "url": "https://github.com/pnp/sp-starter-kit/raw/master/assets/images/components/ext-collab-footer.gif",
-        "alt": "Collaboration Footer Application Customizers"
-      }
-    ],
-    "authors": [
-      {
-        "gitHubAccount": "PaoloPia",
-        "company": "PiaSys.com",
-        "pictureUrl": "https://github.com/PaoloPia.png",
-        "name": "Paolo Pialorsi",
-        "twitter": "PaoloPia"
-      },
-      {
-        "gitHubAccount": "spdavid",
-        "company": "Zalo Solutions AB",
-        "pictureUrl": "https://github.com/spdavid.png",
-        "name": "David Opdendries"
       }
     ],
     "references": [
@@ -2503,7 +2439,7 @@
       "This sample shows how to inject a custom Cascading Style Sheet (CSS) on modern pages."
     ],
     "creationDateTime": "2018-03-28",
-    "updateDateTime": "2018-03-28",
+    "updateDateTime": "2024-10-05",
     "products": [
       "SharePoint"
     ],
@@ -2514,7 +2450,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.8"
+        "value": "1.20.0"
       }
     ],
     "tags": [],
@@ -3078,7 +3014,7 @@
       "SPFx application extension acting as top level search driven navigation and permission checker on the right within a panel."
     ],
     "creationDateTime": "2023-07-27",
-    "updateDateTime": "2024-01-20",
+    "updateDateTime": "2024-10-23",
     "products": [
       "SharePoint"
     ],
@@ -3089,7 +3025,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.18.2"
+        "value": "1.20.0"
       }
     ],
     "tags": [],
@@ -3140,7 +3076,7 @@
       "An SPFx Extension that displays news as a running text at the top of every modern page."
     ],
     "creationDateTime": "2021-04-19",
-    "updateDateTime": "2022-11-11",
+    "updateDateTime": "2024-10-24",
     "products": [
       "SharePoint"
     ],
@@ -3151,7 +3087,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.15.2"
+        "value": "1.20.0"
       }
     ],
     "thumbnails": [
@@ -4527,7 +4463,7 @@
       "A global list customizer which adds functionality to all document libraries in SharePoint Online to convert one or more documents in-place to PDF, or download one or more documents as a PDF. When selecting multiple documents for download they will be downloaded as a zip file. The converter uses built in API's of converting to PDF."
     ],
     "creationDateTime": "2021-02-23",
-    "updateDateTime": "2021-11-11",
+    "updateDateTime": "2024-10-23",
     "products": [
       "SharePoint"
     ],
@@ -4538,7 +4474,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.12.1"
+        "value": "1.20.0"
       }
     ],
     "tags": [],
@@ -5581,7 +5517,7 @@
       "This sample shows how you can print list items using different templates, site admin can add, edit or remove templates and users can print items based on those templates."
     ],
     "creationDateTime": "2018-12-05",
-    "updateDateTime": "2018-12-05",
+    "updateDateTime": "2024-10-30",
     "products": [
       "SharePoint"
     ],
@@ -5592,7 +5528,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.7"
+        "value": "1.16.1"
       }
     ],
     "tags": [],
@@ -5614,6 +5550,13 @@
         "pictureUrl": "https://github.com/AhmadiRamin.png",
         "name": "Ramin Ahmadi",
         "twitter": "raminahmadi1986"
+      },
+      {
+        "gitHubAccount": "NishkalankBezawada",
+        "company": "Bravero AB",
+        "pictureUrl": "https://github.com/NishkalankBezawada.png",
+        "name": "Nishkalank Bezawada",
+        "twitter": "im_nishkalank"
       }
     ],
     "references": [
@@ -6684,7 +6627,7 @@
       "If the current user hasn't been voted, the button will become Vote button but if the current user has been voted, it will become Unvote button."
     ],
     "creationDateTime": "2021-04-19",
-    "updateDateTime": "2023-10-08",
+    "updateDateTime": "2024-10-29",
     "products": [
       "SharePoint"
     ],
@@ -6695,7 +6638,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.15.2"
+        "value": "1.20.0"
       }
     ],
     "categories": [
@@ -12192,7 +12135,7 @@
       "This Web Part allows you to manage events in a calendar. Uses a list of existing calendars on any website. The location and name of the list and the dates of the events to be displayed are defined in the properties of the web part."
     ],
     "creationDateTime": "2020-12-04",
-    "updateDateTime": "2024-10-01",
+    "updateDateTime": "2024-11-03",
     "products": [
       "SharePoint"
     ],
@@ -12203,7 +12146,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.16.1"
+        "value": "1.20.0"
       },
       {
         "key": "SPFX-TEAMSTAB",
@@ -20871,7 +20814,7 @@
       "This SharePoint Framework (SPFx) web part introduces a contemporary carousel component leveraging Swiper, facilitating seamless traversal through content housed within a SharePoint site. This innovative feature enhances user experience by providing fluid navigation through various pieces of content, thereby adding a touch of elegance and sophistication to the SharePoint environment."
     ],
     "creationDateTime": "2024-03-16",
-    "updateDateTime": "2024-10-10",
+    "updateDateTime": "2024-11-01",
     "products": [
       "SharePoint"
     ],
@@ -21571,7 +21514,7 @@
       "This SPFx app allows quick access to user agenda, ToDo Tasks, Files and  News and Relevant People related to user."
     ],
     "creationDateTime": "2023-06-23",
-    "updateDateTime": "2023-06-23",
+    "updateDateTime": "2024-10-22",
     "products": [
       "SharePoint"
     ],
@@ -21582,7 +21525,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.17.2"
+        "value": "1.20.0"
       }
     ],
     "thumbnails": [
@@ -26079,7 +26022,7 @@
       "A RSS Reader original based on work completed by Olivier Carpentier's"
     ],
     "creationDateTime": "2020-11-22",
-    "updateDateTime": "2023-08-18",
+    "updateDateTime": "2024-10-30",
     "products": [
       "SharePoint"
     ],
@@ -26090,7 +26033,7 @@
       },
       {
         "key": "SPFX-VERSION",
-        "value": "1.18.2"
+        "value": "1.20.0"
       }
     ],
     "thumbnails": [
