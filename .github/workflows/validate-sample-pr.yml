@@ -1,25 +1,24 @@
-name: Validate Sample PR
+name: Validate SPFx Web Parts Sample PR
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  pull_request_target:
+    branches:
+      - "main"
 
 jobs:
   validate:
-    if: "!contains(github.event.pull_request.labels.*.name, 'skip-validation')"
+    if: github.event.pull_request.user.login != 'dependabot[bot]' && !contains(github.event.pull_request.labels.*.name, 'skip-validation')
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
-
       - name: Run Validate SPFx Sample PR Action
-        uses: ./.github/actions/validate-sample-pr
+        uses: pnp/action-pr-validator@v1
         with:
           pr: ${{ toJson(github.event.pull_request) }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          gh-token: ${{ secrets.GITHUB_TOKEN }}
+          postComment: 'true'
