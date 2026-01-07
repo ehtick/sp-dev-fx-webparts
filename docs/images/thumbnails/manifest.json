@@ -139,9 +139,9 @@
     "sourceUrl": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-target-audience/assets/audience.gif",
     "file": "pnp-sp-dev-spfx-web-parts-react-target-audience.webp"
   },
-  "pnp-sp-dev-spfx-web-parts-js-gitHubbadge": {
+  "pnp-sp-dev-spfx-web-parts-js-githubbadge": {
     "sourceUrl": "https://github.com/pnp/sp-dev-fx-webparts/raw/e92d0dac567cc4d59cdfc94186a52a3b776c6d21/samples/js-gitHubBadge/assets/1.png",
-    "file": "pnp-sp-dev-spfx-web-parts-js-gitHubbadge.webp"
+    "file": "pnp-sp-dev-spfx-web-parts-js-githubbadge.webp"
   },
   "pnp-sp-dev-spfx-web-parts-react-officegraph": {
     "sourceUrl": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-officegraph/assets/trendinginthissite-preview.png",
@@ -1332,7 +1332,7 @@
     "file": "pnp-sp-dev-spfx-web-parts-react-dall-e-image-generation.webp"
   },
   "pnp-sp-dev-spfx-web-parts-react-document-links-accordion": {
-    "sourceUrl": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-document-links-accordion/assets/documentsLinksAccordion.gif",
+    "sourceUrl": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-document-links-accordion/assets/documentsLinksAccordion1.png",
     "file": "pnp-sp-dev-spfx-web-parts-react-document-links-accordion.webp"
   },
   "pnp-sp-dev-spfx-web-parts-react-environment-settings": {
@@ -1884,7 +1884,7 @@
     "file": "pnp-sp-dev-spfx-extensions-react-application-botframework-chat.webp"
   },
   "pnp-sp-dev-spfx-extensions-js-field-animated-progress": {
-    "sourceUrl": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/js-field-animated-progress/assets/progressfield.png",
+    "sourceUrl": "https://github.com/pnp/sp-dev-fx-extensions/raw/main/samples/js-field-animated-progress/assets/preview.gif",
     "file": "pnp-sp-dev-spfx-extensions-js-field-animated-progress.webp"
   },
   "pnp-sp-dev-spfx-extensions-react-command-dialog": {

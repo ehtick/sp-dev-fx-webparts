@@ -1771,11 +1771,11 @@
     ]
   },
   {
-    "name": "pnp-sp-dev-spfx-web-parts-js-gitHubbadge",
+    "name": "pnp-sp-dev-spfx-web-parts-js-githubbadge",
     "source": "pnp",
     "title": "GitHub Badge Web Part",
     "shortDescription": "",
-    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/js-gitHubbadge",
+    "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/js-gitHubBadge",
     "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/js-gitHubBadge",
     "updateDateTime": "2019-04-18",
     "metadata": [
@@ -1808,7 +1808,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "/sp-dev-fx-webparts/images/thumbnails/pnp-sp-dev-spfx-web-parts-js-gitHubbadge.webp",
+        "url": "/sp-dev-fx-webparts/images/thumbnails/pnp-sp-dev-spfx-web-parts-js-githubbadge.webp",
         "alt": "GitHub Badge"
       }
     ]
@@ -15393,8 +15393,8 @@
       {
         "type": "image",
         "order": 100,
-        "url": "/sp-dev-fx-webparts/images/thumbnails/pnp-sp-dev-spfx-web-parts-react-document-links-accordion.webp",
-        "alt": "Web part in action"
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/blob/main/samples/react-document-links-accordion/assets/documentsLinksAccordion1.png",
+        "alt": "Screen shot of web part"
       }
     ]
   },
