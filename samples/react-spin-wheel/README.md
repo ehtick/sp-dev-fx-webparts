@@ -7,9 +7,24 @@ An interactive daily spin wheel game with probability-based rewards, featuring s
 ![Spin Wheel Demo](./assets/spin-wheel-demo.gif)
 ![Spin Wheel Preview](./assets/spin-wheel-preview.png)
 
-## Used SharePoint Framework Version
+## Compatibility
 
-![version](https://img.shields.io/badge/version-1.20.0-green.svg)
+| :warning: Important          |
+|:---------------------------|
+| Every SPFx version is optimally compatible with specific versions of Node.js. In order to be able to Toolchain this sample, you need to ensure that the version of Node on your workstation matches one of the versions listed in this section. This sample will not work on a different version of Node.|
+|Refer to <https://aka.ms/spfx-matrix> for more information on SPFx compatibility.   |
+
+This sample is optimally compatible with the following environment configuration:
+
+![SPFx 1.20.0](https://img.shields.io/badge/SPFx-1.20.0-green.svg)
+![Node.js v20](https://img.shields.io/badge/Node.js-v20-green.svg)
+![Toolchain: Heft](https://img.shields.io/badge/Toolchain-Heft-green.svg)
+![Compatible with SharePoint Online](https://img.shields.io/badge/SharePoint%20Online-Compatible-green.svg)
+![Does not work with SharePoint 2019](https://img.shields.io/badge/SharePoint%20Server%202019-Incompatible-red.svg "SharePoint Server 2019 requires SPFx 1.4.1 or lower")
+![Does not work with SharePoint 2016 (Feature Pack 2)](https://img.shields.io/badge/SharePoint%20Server%202016%20(Feature%20Pack%202)-Incompatible-red.svg "SharePoint Server 2016 Feature Pack 2 requires SPFx 1.1")
+![Local Workbench Unsupported](https://img.shields.io/badge/Local%20Workbench-Unsupported-red.svg "Local workbench is no longer available as of SPFx 1.13 and above")
+![Hosted Workbench Compatible](https://img.shields.io/badge/Hosted%20Workbench-Compatible-green.svg)
+![Compatible with Remote Containers](https://img.shields.io/badge/Remote%20Containers-Compatible-green.svg)
 
 ## Applies to
 
@@ -49,11 +64,9 @@ Create a list named `GameScores` with the following columns:
 | TimeTakenSeconds | Number | Yes | Always 0 for spins |
 | Timestamp | Date and Time | Yes | When the spin occurred |
 
-## Solution
+## Contributors
 
-| Solution | Author(s) |
-|----------|-----------|
-| react-spin-wheel | [Sai Siva Ram Bandaru](https://github.com/saiiiiiii)
+- [Sai Siva Ram Bandaru](https://github.com/saiiiiiii)
 
 ## Version history
 
@@ -68,6 +81,7 @@ Create a list named `GameScores` with the following columns:
 This web part illustrates the following concepts:
 
 ### User Experience
+
 - **Daily Spin Limit**: Users can spin the wheel once every 24 hours
 - **Probability-Based Rewards**: Configure different rewards with custom probabilities
 - **Sound Effects**: Engaging audio feedback during spins using Web Audio API
@@ -75,6 +89,7 @@ This web part illustrates the following concepts:
 ### Daily Limit Enforcement
 
 The web part checks the last spin date from the GameScores list and compares it with the current date. Users can only spin if:
+
 - They have never spun before, OR
 - Their last spin was on a different day (24+ hours ago)
 
