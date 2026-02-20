@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+  "name": "pnp-sp-dev-spfx-web-parts-react-navigation-tabs",
+  "version": "1.0.0",
+  "source": "pnp",
+  "creationDateTime": "2025-02-20",
+  "updateDateTime": "2025-02-20",
+  "title": "Navigation Tabs",
+  "shortDescription": "Displays navigation links organized by tabbed categories with Card, Compact, and Tile layouts",
+  "longDescription": [
+    "A SharePoint Framework web part that reads navigation links from a SharePoint list and renders them in tabbed categories. Supports three layout styles (Card, Compact, Tile), built-in list generation, drag-and-drop tab ordering, click tracking, and configurable grid layouts."
+  ],
+  "url": "https://github.com/pnp/sp-dev-fx-webparts/tree/main/samples/react-navigation-tabs",
+  "products": ["SharePoint", "Microsoft Teams"],
+  "metadata": [
+    { "key": "CLIENT-SIDE-DEV", "value": "React" },
+    { "key": "SPFX-VERSION", "value": "1.22.0" }
+  ],
+  "thumbnails": [
+    { "type": "image", "order": 100, "url": "./assets/card-layout.png", "alt": "Card Grid Layout" },
+    { "type": "image", "order": 200, "url": "./assets/compact-layout.png", "alt": "Compact List Layout" },
+    { "type": "image", "order": 300, "url": "./assets/tile-layout.png", "alt": "Tile Layout" }
+  ],
+  "authors": [
+    {
+      "gitHubAccount": "wkwolff",
+      "name": "W. Kevin Wolff",
+      "pictureUrl": "https://github.com/wkwolff.png"
+    }
+  ],
+  "references": [
+    { "name": "Build your first SharePoint client-side web part", "url": "https://learn.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part" },
+    { "name": "PnPjs Documentation", "url": "https://pnp.github.io/pnpjs/" }
+  ]
+}
