@@ -69,6 +69,7 @@ This sample illustrates the following concepts:
 - Centralized service layer for Microsoft Graph API calls
 - Handling both **beta** and **v1.0** Graph endpoints in one solution
 - Tabbed Fluent UI UX for multi-scenario API exploration
+- API information panels per tab showing endpoint details, required permissions, licensing, and limitations
 - Markdown rendering for chat responses and formatted API output
 
 ### API Coverage
