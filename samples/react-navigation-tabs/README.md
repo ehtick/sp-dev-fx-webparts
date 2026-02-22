@@ -5,6 +5,7 @@
 A SharePoint Framework (SPFx 1.22) web part that displays navigation links organized by tabbed categories. Links are stored in a SharePoint list and rendered in one of three layout styles: Card, Compact, and Tile.
 
 Features include:
+
 - Tabbed Categories — Links automatically grouped into tabs by Category field
 - Three Layout Options — Card, Compact, and Tile layouts
 - Built-in List Generator — Create a pre-configured SharePoint list from the property pane
@@ -32,6 +33,7 @@ Features include:
 
 ![SPFx 1.22.0](https://img.shields.io/badge/SPFx-1.22.0-green.svg)
 ![Node.js v18 | v20 | v22](https://img.shields.io/badge/Node.js-v18%20%7C%20v20%20%7C%20v22-green.svg)
+![Toolchain: Heft](https://img.shields.io/badge/Toolchain-Heft-green.svg)
 ![Compatible with SharePoint Online](https://img.shields.io/badge/SharePoint%20Online-Compatible-green.svg)
 ![Does not work with SharePoint 2019](https://img.shields.io/badge/SharePoint%20Server%202019-Incompatible-red.svg)
 ![Does not work with SharePoint 2016](https://img.shields.io/badge/SharePoint%20Server%202016-Incompatible-red.svg)
@@ -42,7 +44,7 @@ Features include:
 ## Applies to
 
 - [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
+- [Microsoft 365 tenant](https://learn.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
 
 > Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
@@ -54,7 +56,7 @@ Features include:
 
 | Version | Date | Comments |
 |---------|------|----------|
-| 1.0 | February 20, 2025 | Initial release |
+| 1.0 | February 20, 2026 | Initial release |
 
 ## Prerequisites
 
