@@ -16,15 +16,19 @@ It is intended as a practical learning sample for developers who want to underst
 ## Screenshots
 
 ### Chat
+
 ![Chat API](./assets/copilot-chat-api.png)
 
 ### Search
+
 ![Search API](./assets/copilot-search-api.png)
 
 ### Meeting Insight
+
 ![Meeting Insight API](./assets/copilot-insight-api.png)
 
 ### Usage API
+
 ![Usage API](./assets/copilot-usage-api.png)
 
 ## Compatibility
@@ -37,6 +41,7 @@ This sample is optimally compatible with the following environment configuration
 
 ![SPFx 1.22.1](https://img.shields.io/badge/SPFx-1.22.1-green.svg)
 ![Node.js v22.x](https://img.shields.io/badge/Node.js-v22.x-green.svg)
+![Toolchain: Heft](https://img.shields.io/badge/Toolchain-Heft-green.svg)
 ![Compatible with SharePoint Online](https://img.shields.io/badge/SharePoint%20Online-Compatible-green.svg)
 ![Does not work with SharePoint 2019](https://img.shields.io/badge/SharePoint%20Server%202019-Incompatible-red.svg "SharePoint Server 2019 requires SPFx 1.4.1 or lower")
 ![Does not work with SharePoint 2016 (Feature Pack 2)](https://img.shields.io/badge/SharePoint%20Server%202016%20(Feature%20Pack%202)-Incompatible-red.svg "SharePoint Server 2016 Feature Pack 2 requires SPFx 1.1")
@@ -45,7 +50,7 @@ This sample is optimally compatible with the following environment configuration
 ## Applies to
 
 - [SharePoint Framework](https://aka.ms/spfx)
-- [Microsoft 365 tenant](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-developer-tenant)
+- [Microsoft 365 tenant](https://learn.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
 - [Microsoft Graph](https://learn.microsoft.com/graph/overview)
 
 > Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
@@ -90,11 +95,6 @@ This sample illustrates the following concepts:
 - Microsoft 365 Copilot licensing for scenarios you want to test
 - Tenant admin approval for requested Microsoft Graph scopes in the package
 
-## Solution
-
-| Solution | Author(s) |
-| -------- | --------- |
-| react-copilot-apis-explorer | [Ejaz Hussain](https://github.com/ejazhussain) |
 
 ## Minimal Path to Awesome
 
@@ -144,10 +144,10 @@ This sample illustrates the following concepts:
 
 ## References
 
-- [Getting started with SharePoint Framework](https://docs.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
-- [Building for Microsoft Teams](https://docs.microsoft.com/sharepoint/dev/spfx/build-for-teams-overview)
-- [Use Microsoft Graph in your solution](https://docs.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
-- [Microsoft 365 Copilot APIs overview](https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/copilot-apis-overview)
+- [Getting started with SharePoint Framework](https://learn.microsoft.com/sharepoint/dev/spfx/set-up-your-developer-tenant)
+- [Building for Microsoft Teams](https://learn.microsoft.com/sharepoint/dev/spfx/build-for-teams-overview)
+- [Use Microsoft Graph in your solution](https://learn.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
+- [Microsoft 365 Copilot APIs overview](https://learn.microsoft.com/microsoft-365-copilot/extensibility/copilot-apis-overview)
 - [Microsoft 365 Copilot APIs in Microsoft Graph](https://learn.microsoft.com/graph/api/resources/copilot-overview)
 - [Heft Documentation](https://heft.rushstack.io/)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp)
