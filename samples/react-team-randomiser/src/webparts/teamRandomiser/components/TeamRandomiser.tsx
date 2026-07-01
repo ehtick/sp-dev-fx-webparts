@@ -27,14 +27,18 @@ const TeamRandomiser: React.FC<ITeamRandomiserProps> = (props) => {
     buildGroups(props.names, props.groupSize)
   );
   const [isShuffling, setIsShuffling] = useState(false);
+  const timerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const shuffle = (): void => {
+    if (isShuffling) return;
     setIsShuffling(true);
-    setTimeout(() => {
+    timerRef.current = setTimeout(() => {
       setGroups(buildGroups(props.names, props.groupSize));
       setIsShuffling(false);
     }, 600);
   };
+
+  React.useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current); }, []);
 
   const validNames = props.names.filter(n => n.trim() !== '');
   const hasNames = validNames.length > 1;
