@@ -49,21 +49,23 @@ const TeamRandomiser: React.FC<ITeamRandomiserProps> = (props) => {
         <Text variant="xLarge" block>{props.title}</Text>
       )}
       <div className={styles.toolbar}>
-        {isShuffling ? (
-          <Spinner size={SpinnerSize.small} label="Shuffling..." labelPosition="right" />
-        ) : (
-          <DefaultButton
-            text="Shuffle Groups"
-            iconProps={{ iconName: 'Sync' }}
-            onClick={shuffle}
-            disabled={!hasNames}
-          />
-        )}
         {hasNames && (
           <Text variant="small" className={styles.toolbarSubtitle}>
             {validNames.length} {validNames.length === 1 ? 'person' : 'people'} &middot; {props.groupSize} per group
           </Text>
         )}
+        <div className={styles.toolbarButton}>
+          {isShuffling ? (
+            <Spinner size={SpinnerSize.small} label="Shuffling..." labelPosition="right" />
+          ) : (
+            <DefaultButton
+              text="Shuffle Groups"
+              iconProps={{ iconName: 'Sync' }}
+              onClick={shuffle}
+              disabled={!hasNames}
+            />
+          )}
+        </div>
       </div>
       {!hasNames ? (
         <div className={styles.emptyState}>
