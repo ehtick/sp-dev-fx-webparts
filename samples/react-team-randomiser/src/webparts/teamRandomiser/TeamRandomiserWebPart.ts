@@ -23,6 +23,7 @@ export default class TeamRandomiserWebPart extends BaseClientSideWebPart<ITeamRa
     const element: React.ReactElement<ITeamRandomiserProps> = React.createElement(
       TeamRandomiser,
       {
+        title: this.properties.title || '',
         names,
         groupSize: this.properties.groupSize || 3,
       }
@@ -45,6 +46,14 @@ export default class TeamRandomiserWebPart extends BaseClientSideWebPart<ITeamRa
         {
           header: { description: strings.PropertyPaneDescription },
           groups: [
+            {
+              groupName: 'Display',
+              groupFields: [
+                PropertyPaneTextField('title', {
+                  label: strings.TitleFieldLabel,
+                }),
+              ]
+            },
             {
               groupName: 'People',
               groupFields: [

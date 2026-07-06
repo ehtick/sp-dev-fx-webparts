@@ -45,6 +45,9 @@ const TeamRandomiser: React.FC<ITeamRandomiserProps> = (props) => {
 
   return (
     <div className={styles.container}>
+      {props.title && (
+        <Text variant="xLarge" block>{props.title}</Text>
+      )}
       <div className={styles.toolbar}>
         {isShuffling ? (
           <Spinner size={SpinnerSize.small} label="Shuffling..." labelPosition="right" />
