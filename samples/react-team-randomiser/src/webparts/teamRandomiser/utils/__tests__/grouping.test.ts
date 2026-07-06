@@ -33,12 +33,12 @@ describe('buildGroups', () => {
     result.forEach(g => expect(g).toHaveLength(3));
   });
 
-  it('distributes remainder: 10 people size 3 → sizes 4,3,3', () => {
+  it('caps group size: 10 people size 3 → groups of [3,3,3,1]', () => {
     const names = ['A','B','C','D','E','F','G','H','I','J'];
     const result = buildGroups(names, 3);
-    expect(result).toHaveLength(3);
+    expect(result).toHaveLength(4);
     const sizes = result.map(g => g.length).sort((a, b) => b - a);
-    expect(sizes).toEqual([4, 3, 3]);
+    expect(sizes).toEqual([3, 3, 3, 1]);
   });
 
   it('contains all input names exactly once', () => {
