@@ -45,7 +45,7 @@ The sample presents environments in a Fluent UI DetailsList and provides:
 - Environment deletion using Power Platform APIs
 - Success and error notifications using Fluent UI MessageBars
 
-![Default View](./assets/Default.png)
+![Default View](./assets/sample.png)
 
 ![Filtering and Search](./assets/Search.png)
 
