@@ -25,11 +25,11 @@ The Power Automate Approvals web part is a SharePoint Framework (SPFx) solution 
 
 ## Screen Demo
 
-![Power Automate Approvals Dashboard](<./src/webparts/powerAutomateApprovals/screenshots%20references/PA%20Approvals%201.png>)
+![Power Automate Approvals Dashboard](<./assets/PA%20Approvals%201.png>)
 
-![Power Automate Approvals Dashboard](<./src/webparts/powerAutomateApprovals/screenshots%20references/PA%20Approvals%202.png>)
+![Power Automate Approvals Dashboard](<./assets/PA%20Approvals%202.png>)
 
-![Power Automate Approvals Dashboard](<./src/webparts/powerAutomateApprovals/screenshots%20references/PA%20Approvals%203.png>)
+![Power Automate Approvals Dashboard](<./assets/PA%20Approvals%203.png>)
 
 ## Compatibility
 
@@ -71,9 +71,8 @@ This sample is optimally compatible with the following environment configuration
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 2.0     | July 7, 2026     | Dashboard redesign: role-based buckets, activity timeline with responses/comments and reassignment tracking, display name resolution |
-| 1.1     | March 10, 2021   | Update comment  |
-| 1.0     | January 29, 2021 | Initial release |
+| 1.0     | July 7, 2026     | Initial commit |
+
 
 ## Minimal Path to Awesome
 
