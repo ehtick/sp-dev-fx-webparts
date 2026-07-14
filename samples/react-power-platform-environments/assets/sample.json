@@ -33,7 +33,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-power-platform-environments/assets/Default.png",
+        "url": "https://github.com/pnp/sp-dev-fx-webparts/raw/main/samples/react-power-platform-environments/assets/sample.png",
         "alt": "Environments list"
       },
       {
