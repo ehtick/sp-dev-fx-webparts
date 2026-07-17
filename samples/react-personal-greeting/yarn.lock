@@ -51,11 +51,11 @@
     source-map "~0.6.1"
     typescript "~3.5.3"
 
-"@microsoft/decorators@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.10.0.tgz#372955220f8d4ea6de2c82a2a60274976816ce31"
+"@microsoft/decorators@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/decorators/-/decorators-1.11.0.tgz#70cde025b0ddbf0d279a43de62faa6a2b272c352"
   dependencies:
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
 "@microsoft/gulp-core-build-sass@4.8.5":
   version "4.8.5"
@@ -163,9 +163,9 @@
   version "1.10.43"
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.10.43.tgz#9c57b8af078743590b6fd08c397cef259588610d"
 
-"@microsoft/loader-cased-file@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/loader-cased-file/-/loader-cased-file-1.10.0.tgz#33af70cfed11bf994799bcbd20ebab0574a51339"
+"@microsoft/loader-cased-file@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/loader-cased-file/-/loader-cased-file-1.11.0.tgz#acf59513a8c2d5ca719e6eb1d984eff548d745a1"
   dependencies:
     "@types/lodash" "4.14.117"
     "@types/node" "8.10.54"
@@ -211,9 +211,9 @@
     jju "~1.4.0"
     z-schema "~3.18.3"
 
-"@microsoft/office-ui-fabric-react-bundle@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/office-ui-fabric-react-bundle/-/office-ui-fabric-react-bundle-1.10.0.tgz#601ccb44451403e386d6ae20d087a54be925ead8"
+"@microsoft/office-ui-fabric-react-bundle@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/office-ui-fabric-react-bundle/-/office-ui-fabric-react-bundle-1.11.0.tgz#d32b2c006522279f2197ed3e23fd79f14b00cac8"
   dependencies:
     "@types/react" "16.8.8"
     "@types/webpack-env" "1.13.1"
@@ -221,7 +221,7 @@
     office-ui-fabric-react "7.59.0"
     react "16.8.5"
     react-dom "16.8.5"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
 "@microsoft/package-deps-hash@2.3.1":
   version "2.3.1"
@@ -280,50 +280,50 @@
     lodash "~4.17.15"
     uglify-js "~3.0.28"
 
-"@microsoft/sp-application-base@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-application-base/-/sp-application-base-1.10.0.tgz#6d4b33974a1a88c07b6bb8066726a237625190e2"
+"@microsoft/sp-application-base@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-application-base/-/sp-application-base-1.11.0.tgz#7a3926bab4591b21322cc3be1bc3162a7958fd27"
   dependencies:
-    "@microsoft/decorators" "1.10.0"
-    "@microsoft/sp-component-base" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-extension-base" "1.10.0"
-    "@microsoft/sp-http" "1.10.0"
-    "@microsoft/sp-loader" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
-    "@microsoft/sp-odata-types" "1.10.0"
-    "@microsoft/sp-page-context" "1.10.0"
-    "@microsoft/sp-search-extensibility" "1.10.0"
-    tslib "~1.9.3"
+    "@microsoft/decorators" "1.11.0"
+    "@microsoft/sp-component-base" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-extension-base" "1.11.0"
+    "@microsoft/sp-http" "1.11.0"
+    "@microsoft/sp-loader" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
+    "@microsoft/sp-odata-types" "1.11.0"
+    "@microsoft/sp-page-context" "1.11.0"
+    "@microsoft/sp-search-extensibility" "1.11.0"
+    tslib "~1.10.0"
 
-"@microsoft/sp-build-common@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-build-common/-/sp-build-common-1.10.0.tgz#af3390b93a1b3e527ae03a61b25fbb8f8606ec26"
+"@microsoft/sp-build-common@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-build-common/-/sp-build-common-1.11.0.tgz#bce235b283584fa61fe279d656506f09418036e9"
   dependencies:
     "@microsoft/gulp-core-build" "3.12.1"
     "@microsoft/gulp-core-build-typescript" "8.2.5"
-    "@microsoft/sp-tslint-rules" "1.10.0"
+    "@microsoft/sp-tslint-rules" "1.11.0"
     "@types/yargs" "0.0.35"
     gulp "~3.9.1"
     semver "~5.2.0"
     yargs "~4.6.0"
 
-"@microsoft/sp-build-core-tasks@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-build-core-tasks/-/sp-build-core-tasks-1.10.0.tgz#0cefd68072e4a39493bce7fa14a6075829d08a94"
+"@microsoft/sp-build-core-tasks@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-build-core-tasks/-/sp-build-core-tasks-1.11.0.tgz#4eb27f152acfce5b872a885794be989a8c649a13"
   dependencies:
     "@microsoft/gulp-core-build" "3.12.1"
     "@microsoft/gulp-core-build-serve" "3.5.5"
     "@microsoft/gulp-core-build-webpack" "3.7.0"
     "@microsoft/load-themed-styles" "1.10.20"
-    "@microsoft/loader-cased-file" "1.10.0"
+    "@microsoft/loader-cased-file" "1.11.0"
     "@microsoft/loader-load-themed-styles" "1.7.191"
     "@microsoft/node-core-library" "3.15.1"
     "@microsoft/rush-lib" "5.15.1"
     "@microsoft/set-webpack-public-path-plugin" "2.2.5"
-    "@microsoft/sp-module-interfaces" "1.10.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
     "@types/finalhandler" "0.0.31"
     "@types/fs-extra" "5.0.1"
     "@types/glob" "5.0.30"
@@ -368,110 +368,110 @@
     webpack-stream "~5.2.1"
     xml "~1.0.1"
 
-"@microsoft/sp-build-web@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-build-web/-/sp-build-web-1.10.0.tgz#ef33366e85e37cc15048e9be828793b572e4c3db"
+"@microsoft/sp-build-web@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-build-web/-/sp-build-web-1.11.0.tgz#b9e92d76234b44c4cbfce668168797735a9fa95b"
   dependencies:
     "@microsoft/gulp-core-build" "3.12.1"
     "@microsoft/gulp-core-build-sass" "4.8.5"
     "@microsoft/gulp-core-build-serve" "3.5.5"
     "@microsoft/gulp-core-build-typescript" "8.2.5"
     "@microsoft/gulp-core-build-webpack" "3.7.0"
-    "@microsoft/sp-build-common" "1.10.0"
-    "@microsoft/sp-build-core-tasks" "1.10.0"
+    "@microsoft/sp-build-common" "1.11.0"
+    "@microsoft/sp-build-core-tasks" "1.11.0"
     "@types/webpack" "4.39.2"
     gulp "~3.9.1"
     webpack "~4.35.3"
     yargs "~4.6.0"
 
-"@microsoft/sp-component-base@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-component-base/-/sp-component-base-1.10.0.tgz#f19dfbf46d3872623494d2b7f8403de63ba73d86"
+"@microsoft/sp-component-base@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-component-base/-/sp-component-base-1.11.0.tgz#d9ae3a7fe741eb525c78be3d5c7805c1d7655ef9"
   dependencies:
-    "@microsoft/decorators" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-dynamic-data" "1.10.0"
-    "@microsoft/sp-http" "1.10.0"
-    "@microsoft/sp-loader" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
-    "@microsoft/sp-page-context" "1.10.0"
+    "@microsoft/decorators" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-dynamic-data" "1.11.0"
+    "@microsoft/sp-http" "1.11.0"
+    "@microsoft/sp-loader" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
+    "@microsoft/sp-page-context" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/webpack-env" "1.13.1"
 
-"@microsoft/sp-core-library@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.10.0.tgz#57fd2692bfab9f22949974374df7372cf1982ffe"
+"@microsoft/sp-core-library@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-core-library/-/sp-core-library-1.11.0.tgz#195cf5acd3342cdead5143bd7b6df490939b834b"
   dependencies:
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/webpack-env" "1.13.1"
 
-"@microsoft/sp-diagnostics@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-diagnostics/-/sp-diagnostics-1.10.0.tgz#5a1e290ef413587e0f2ece042ec7a61cded37e98"
+"@microsoft/sp-diagnostics@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-diagnostics/-/sp-diagnostics-1.11.0.tgz#c1ce7c7228ef8ae4f04344d25d0df575c18195dc"
   dependencies:
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
 
-"@microsoft/sp-dynamic-data@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-dynamic-data/-/sp-dynamic-data-1.10.0.tgz#f77bba770f3416925bba9497bcb987f043e59df4"
+"@microsoft/sp-dynamic-data@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-dynamic-data/-/sp-dynamic-data-1.11.0.tgz#09d7c2e9183be888b1122a902eeb771003393475"
   dependencies:
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/webpack-env" "1.13.1"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-extension-base@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-extension-base/-/sp-extension-base-1.10.0.tgz#e4cd25905ed87a4258fa87a70cdd6aefa7956a5b"
+"@microsoft/sp-extension-base@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-extension-base/-/sp-extension-base-1.11.0.tgz#c149b75916721055989edbda54ebf6367079bfd9"
   dependencies:
-    "@microsoft/decorators" "1.10.0"
-    "@microsoft/sp-component-base" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-http" "1.10.0"
-    "@microsoft/sp-loader" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
-    "@microsoft/sp-page-context" "1.10.0"
+    "@microsoft/decorators" "1.11.0"
+    "@microsoft/sp-component-base" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-http" "1.11.0"
+    "@microsoft/sp-loader" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
+    "@microsoft/sp-page-context" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/webpack-env" "1.13.1"
 
-"@microsoft/sp-http@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-http/-/sp-http-1.10.0.tgz#7436c1231b4911abb0fe7848462228d3644b2edf"
+"@microsoft/sp-http@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-http/-/sp-http-1.11.0.tgz#df21ff5d9f9325d6538e24d2aa79803338407ce7"
   dependencies:
     "@microsoft/microsoft-graph-client" "~1.1.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
     "@types/adal-angular" "1.0.1"
     adal-angular "1.0.16"
     msal "1.1.3"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-loader@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-loader/-/sp-loader-1.10.0.tgz#cffcc71d586b879aecf33ec1bb2558806fa27eea"
+"@microsoft/sp-loader@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-loader/-/sp-loader-1.11.0.tgz#e5487f55cc83a41d59f670cabb4ab91f56819553"
   dependencies:
     "@microsoft/loader-raw-script" "1.2.182"
-    "@microsoft/office-ui-fabric-react-bundle" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-dynamic-data" "1.10.0"
-    "@microsoft/sp-http" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
-    "@microsoft/sp-odata-types" "1.10.0"
-    "@microsoft/sp-page-context" "1.10.0"
-    "@microsoft/sp-polyfills" "1.10.0"
+    "@microsoft/office-ui-fabric-react-bundle" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-dynamic-data" "1.11.0"
+    "@microsoft/sp-http" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
+    "@microsoft/sp-odata-types" "1.11.0"
+    "@microsoft/sp-page-context" "1.11.0"
+    "@microsoft/sp-polyfills" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/react" "16.8.8"
     "@types/react-dom" "16.8.3"
@@ -484,73 +484,73 @@
     react "16.8.5"
     react-dom "16.8.5"
     requirejs "2.1.20"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-lodash-subset@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.10.0.tgz#5c93ea5235e26cb0aee8f22659f706f37b78d565"
+"@microsoft/sp-lodash-subset@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-lodash-subset/-/sp-lodash-subset-1.11.0.tgz#0d495eb4251840349afc30a6948e599a38dde09b"
   dependencies:
     "@types/lodash" "4.14.117"
     "@types/webpack-env" "1.13.1"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-module-interfaces@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-module-interfaces/-/sp-module-interfaces-1.10.0.tgz#d60e2b51ba1efbb05610a5a4f9474537655c61d5"
+"@microsoft/sp-module-interfaces@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-module-interfaces/-/sp-module-interfaces-1.11.0.tgz#5b46f9f27c3cf94b43f9e3db037270242a4f676e"
   dependencies:
     "@types/node" "8.10.54"
     "@types/z-schema" "3.16.31"
     z-schema "~3.18.3"
 
-"@microsoft/sp-odata-types@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.10.0.tgz#c897b4c7c26336894294eee9b2ac904e4dbd66ea"
+"@microsoft/sp-odata-types@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-odata-types/-/sp-odata-types-1.11.0.tgz#ec5a76696cb90161ea3ff4a6ccf27cbde394c964"
   dependencies:
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-office-ui-fabric-core@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-office-ui-fabric-core/-/sp-office-ui-fabric-core-1.10.0.tgz#b704e5192042bdd35a19827d82c07d80d672f162"
+"@microsoft/sp-office-ui-fabric-core@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-office-ui-fabric-core/-/sp-office-ui-fabric-core-1.11.0.tgz#673afb30d0347dddce6e77bde110a17e5acb02b1"
   dependencies:
     "@types/webpack-env" "1.13.1"
     office-ui-fabric-core "9.6.1-fluent2"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-page-context@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-page-context/-/sp-page-context-1.10.0.tgz#3648fe8a5330b1debfbfc5f040d2dc8bb16f37dd"
+"@microsoft/sp-page-context@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-page-context/-/sp-page-context-1.11.0.tgz#72c5c3b42c77ac23a2bcf31ecbdc52fe7b3d4f4b"
   dependencies:
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-dynamic-data" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-odata-types" "1.10.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-dynamic-data" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-odata-types" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/webpack-env" "1.13.1"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-polyfills@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-polyfills/-/sp-polyfills-1.10.0.tgz#866229572ea03df9d589f5d251cbd356a703b67f"
+"@microsoft/sp-polyfills@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-polyfills/-/sp-polyfills-1.11.0.tgz#505fbaca627e8afaa99c556a7a6e3e495596fd0f"
   dependencies:
     "@types/webpack-env" "1.13.1"
     es6-collections "0.5.6"
     es6-promise "4.1.1"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
     whatwg-fetch "2.0.3"
     whatwg-url "4.7.1"
 
-"@microsoft/sp-property-pane@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-property-pane/-/sp-property-pane-1.10.0.tgz#b56802105ee80550307399952e34fecfc4ad035e"
+"@microsoft/sp-property-pane@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-property-pane/-/sp-property-pane-1.11.0.tgz#767911a8fb725e5405b922f72ddbc277f021c385"
   dependencies:
-    "@microsoft/decorators" "1.10.0"
-    "@microsoft/office-ui-fabric-react-bundle" "1.10.0"
-    "@microsoft/sp-component-base" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-dynamic-data" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
+    "@microsoft/decorators" "1.11.0"
+    "@microsoft/office-ui-fabric-react-bundle" "1.11.0"
+    "@microsoft/sp-component-base" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-dynamic-data" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/react" "16.8.8"
     "@types/react-dom" "16.8.3"
@@ -558,67 +558,67 @@
     office-ui-fabric-react "7.59.0"
     react "16.8.5"
     react-dom "16.8.5"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-search-extensibility@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-search-extensibility/-/sp-search-extensibility-1.10.0.tgz#86ce100f4544e4e5025f9757eba43be0cc6255c6"
+"@microsoft/sp-search-extensibility@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-search-extensibility/-/sp-search-extensibility-1.11.0.tgz#b5d5fde55b9b648d27addbc20c31c29100dc01ed"
   dependencies:
-    "@microsoft/decorators" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-extension-base" "1.10.0"
-    "@microsoft/sp-loader" "1.10.0"
-    "@microsoft/sp-page-context" "1.10.0"
+    "@microsoft/decorators" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-extension-base" "1.11.0"
+    "@microsoft/sp-loader" "1.11.0"
+    "@microsoft/sp-page-context" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/webpack-env" "1.13.1"
 
-"@microsoft/sp-tslint-rules@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-tslint-rules/-/sp-tslint-rules-1.10.0.tgz#b1510dd9b25f3b2c2506226d604930280a00c47c"
+"@microsoft/sp-tslint-rules@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-tslint-rules/-/sp-tslint-rules-1.11.0.tgz#6d20857830f959a427be450ffec6843eaa2efc9e"
   dependencies:
     tslint "~5.9.1"
     tslint-microsoft-contrib "~5.2.1"
     tsutils "~2.11.2"
 
-"@microsoft/sp-webpart-base@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-base/-/sp-webpart-base-1.10.0.tgz#f66a1c4c88343ebdbcef27f18c9ff2158dc63d7a"
+"@microsoft/sp-webpart-base@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-base/-/sp-webpart-base-1.11.0.tgz#0c1386cf5c3d8583ca5ebf4cd6d8b2d7cbef67e6"
   dependencies:
-    "@microsoft/decorators" "1.10.0"
+    "@microsoft/decorators" "1.11.0"
     "@microsoft/load-themed-styles" "1.10.20"
-    "@microsoft/sp-component-base" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-diagnostics" "1.10.0"
-    "@microsoft/sp-dynamic-data" "1.10.0"
-    "@microsoft/sp-http" "1.10.0"
-    "@microsoft/sp-loader" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
-    "@microsoft/sp-page-context" "1.10.0"
-    "@microsoft/sp-property-pane" "1.10.0"
+    "@microsoft/sp-component-base" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-diagnostics" "1.11.0"
+    "@microsoft/sp-dynamic-data" "1.11.0"
+    "@microsoft/sp-http" "1.11.0"
+    "@microsoft/sp-loader" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
+    "@microsoft/sp-page-context" "1.11.0"
+    "@microsoft/sp-property-pane" "1.11.0"
     "@microsoft/teams-js" "1.4.2"
     "@types/es6-promise" "0.0.33"
     "@types/office-js" "1.0.36"
     "@types/webpack-env" "1.13.1"
     office-ui-fabric-react "7.59.0"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
-"@microsoft/sp-webpart-workbench@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-workbench/-/sp-webpart-workbench-1.10.0.tgz#5674b0825ee5e76090087f1ecfaace0b08e488d8"
+"@microsoft/sp-webpart-workbench@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@microsoft/sp-webpart-workbench/-/sp-webpart-workbench-1.11.0.tgz#a9000c60c5fb4ec6be31f74fafd34a6f578519ed"
   dependencies:
     "@microsoft/gulp-core-build-serve" "3.5.5"
     "@microsoft/node-core-library" "3.15.1"
-    "@microsoft/office-ui-fabric-react-bundle" "1.10.0"
-    "@microsoft/sp-application-base" "1.10.0"
-    "@microsoft/sp-build-core-tasks" "1.10.0"
-    "@microsoft/sp-core-library" "1.10.0"
-    "@microsoft/sp-loader" "1.10.0"
-    "@microsoft/sp-lodash-subset" "1.10.0"
-    "@microsoft/sp-module-interfaces" "1.10.0"
-    "@microsoft/sp-property-pane" "1.10.0"
-    "@microsoft/sp-webpart-base" "1.10.0"
+    "@microsoft/office-ui-fabric-react-bundle" "1.11.0"
+    "@microsoft/sp-application-base" "1.11.0"
+    "@microsoft/sp-build-core-tasks" "1.11.0"
+    "@microsoft/sp-core-library" "1.11.0"
+    "@microsoft/sp-loader" "1.11.0"
+    "@microsoft/sp-lodash-subset" "1.11.0"
+    "@microsoft/sp-module-interfaces" "1.11.0"
+    "@microsoft/sp-property-pane" "1.11.0"
+    "@microsoft/sp-webpart-base" "1.11.0"
     "@types/es6-promise" "0.0.33"
     "@types/fs-extra" "5.0.1"
     "@types/react" "16.8.8"
@@ -630,7 +630,7 @@
     prop-types "15.6.0"
     react "16.8.5"
     react-dom "16.8.5"
-    tslib "~1.9.3"
+    tslib "~1.10.0"
 
 "@microsoft/stream-collator@3.1.5":
   version "3.1.5"
@@ -662,10 +662,23 @@
     adal-angular "1.0.17"
     tslib "1.10.0"
 
+"@pnp/common@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pnp/common/-/common-1.0.1.tgz#4fe72e38d1dec639504afc7141c952121e58a8e9"
+  dependencies:
+    tslib "1.8.1"
+
 "@pnp/common@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@pnp/common/-/common-2.0.3.tgz#409feda9963e89e648900568968cc17d9f4a131b"
   dependencies:
+    tslib "1.10.0"
+
+"@pnp/common@^1.2.8":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@pnp/common/-/common-1.3.11.tgz#6056dd2f9cfcb73634bedbb6c27e9a465d855a4f"
+  dependencies:
+    adal-angular "1.0.17"
     tslib "1.10.0"
 
 "@pnp/config-store@2.0.3":
@@ -688,11 +701,29 @@
     "@pnp/odata" "2.0.3"
     tslib "1.10.0"
 
+"@pnp/logging@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pnp/logging/-/logging-1.0.1.tgz#365d7f766896f78df120c81df43ddd96b0a0a236"
+  dependencies:
+    tslib "1.8.1"
+
 "@pnp/logging@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@pnp/logging/-/logging-2.0.3.tgz#61a356c84a122fdc4d987bf68d955b9ab44e9aa2"
   dependencies:
     tslib "1.10.0"
+
+"@pnp/logging@^1.2.8":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@pnp/logging/-/logging-1.3.11.tgz#709abe300c581bbb687eee13c166b6019f10df0d"
+  dependencies:
+    tslib "1.10.0"
+
+"@pnp/odata@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pnp/odata/-/odata-1.0.1.tgz#c84e6cfcc57655d663d88105960193f3288ec002"
+  dependencies:
+    tslib "1.8.1"
 
 "@pnp/odata@2.0.3":
   version "2.0.3"
@@ -700,6 +731,12 @@
   dependencies:
     "@pnp/common" "2.0.3"
     "@pnp/logging" "2.0.3"
+    tslib "1.10.0"
+
+"@pnp/odata@^1.2.8":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@pnp/odata/-/odata-1.3.11.tgz#e6bf2eda8ad94f3841e99144621ed944371f3f7e"
+  dependencies:
     tslib "1.10.0"
 
 "@pnp/pnpjs@^2.0.3":
@@ -724,6 +761,24 @@
     "@types/sharepoint" "2016.1.2"
     tslib "1.10.0"
 
+"@pnp/sp-clientsvc@^1.2.8":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@pnp/sp-clientsvc/-/sp-clientsvc-1.3.11.tgz#7ab5e58e165441267904b14dc030315b551abb67"
+  dependencies:
+    tslib "1.10.0"
+
+"@pnp/sp-taxonomy@^1.2.8":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@pnp/sp-taxonomy/-/sp-taxonomy-1.3.11.tgz#9298b78b5d23eedaba553495f0462cad1cb65fa8"
+  dependencies:
+    tslib "1.10.0"
+
+"@pnp/sp@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@pnp/sp/-/sp-1.0.1.tgz#e575c956a65693d291908e3211dcd66dce4a1563"
+  dependencies:
+    tslib "1.8.1"
+
 "@pnp/sp@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@pnp/sp/-/sp-2.0.3.tgz#751b308f9d64bcf5a10d92b28a74dd742640f12c"
@@ -732,6 +787,49 @@
     "@pnp/logging" "2.0.3"
     "@pnp/odata" "2.0.3"
     tslib "1.10.0"
+
+"@pnp/sp@^1.2.8":
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/@pnp/sp/-/sp-1.3.11.tgz#8b0b80351467d6a73e78b9e51bc7393d397b7328"
+  dependencies:
+    tslib "1.10.0"
+
+"@pnp/spfx-controls-react@1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@pnp/spfx-controls-react/-/spfx-controls-react-1.17.0.tgz#37a9ba2ca33455fd18bdd9eb681c1d842bf5bea0"
+  dependencies:
+    "@pnp/common" "1.0.1"
+    "@pnp/logging" "1.0.1"
+    "@pnp/odata" "1.0.1"
+    "@pnp/sp" "1.0.1"
+    "@pnp/telemetry-js" "2.0.0"
+    "@types/chart.js" "2.7.40"
+    chart.js "2.7.3"
+    color "^3.1.2"
+    lodash "4.17.4"
+    office-ui-fabric-react "5.131.0"
+    react-quill "1.3.3"
+
+"@pnp/spfx-property-controls@1.17.0":
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/@pnp/spfx-property-controls/-/spfx-property-controls-1.17.0.tgz#d6840b6d02053c5cac2fdce941c6df27f5623e00"
+  dependencies:
+    "@pnp/common" "^1.2.8"
+    "@pnp/logging" "^1.2.8"
+    "@pnp/odata" "^1.2.8"
+    "@pnp/sp" "^1.2.8"
+    "@pnp/sp-clientsvc" "^1.2.8"
+    "@pnp/sp-taxonomy" "^1.2.8"
+    "@pnp/telemetry-js" "2.0.0"
+    lodash.omit "^4.5.0"
+    office-ui-fabric-react "5.131.0"
+    react-ace "5.8.0"
+
+"@pnp/telemetry-js@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@pnp/telemetry-js/-/telemetry-js-2.0.0.tgz#4e14aa031563fb254dae0cef272a748c242234aa"
+  dependencies:
+    whatwg-fetch "2.0.4"
 
 "@pnpm/link-bins@~1.0.1":
   version "1.0.4"
@@ -792,6 +890,10 @@
 "@types/chalk@0.4.31":
   version "0.4.31"
   resolved "https://registry.yarnpkg.com/@types/chalk/-/chalk-0.4.31.tgz#a31d74241a6b1edbb973cf36d97a2896834a51f9"
+
+"@types/chart.js@2.7.40":
+  version "2.7.40"
+  resolved "https://registry.yarnpkg.com/@types/chart.js/-/chart.js-2.7.40.tgz#9e0fbfe8c21fecf1d1549659ede001284ddd636d"
 
 "@types/es6-promise@0.0.33":
   version "0.0.33"
@@ -927,6 +1029,12 @@
 "@types/q@*", "@types/q@^1.5.1":
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
+
+"@types/quill@1.3.10":
+  version "1.3.10"
+  resolved "https://registry.yarnpkg.com/@types/quill/-/quill-1.3.10.tgz#dc1f7b6587f7ee94bdf5291bc92289f6f0497613"
+  dependencies:
+    parchment "^1.1.2"
 
 "@types/ramda@^0.25.20":
   version "0.25.51"
@@ -1106,13 +1214,13 @@
   version "3.16.31"
   resolved "https://registry.yarnpkg.com/@types/z-schema/-/z-schema-3.16.31.tgz#2eb1d00a5e4ec3fa58c76afde12e182b66dc5c1c"
 
-"@uifabric/foundation@^0.7.6":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@uifabric/foundation/-/foundation-0.7.7.tgz#ba6d61b5589c7ac54adf62e4f617d6f63f38e350"
+"@uifabric/foundation@^0.8.3":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/foundation/-/foundation-0.8.3.tgz#46fc211deb1407436695d0e069d1975073f9e9d3"
   dependencies:
     "@uifabric/set-version" "^1.1.3"
-    "@uifabric/styling" "^6.48.1"
-    "@uifabric/utilities" "^6.41.0"
+    "@uifabric/styling" "^6.50.7"
+    "@uifabric/utilities" "^6.41.7"
     tslib "^1.7.1"
 
 "@uifabric/foundation@^7.5.0", "@uifabric/foundation@^7.5.25":
@@ -1133,7 +1241,14 @@
     "@uifabric/styling" "^7.7.1"
     tslib "^1.7.1"
 
-"@uifabric/icons@^6.5.2":
+"@uifabric/icons@>=5.8.0 <6.0.0":
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-5.8.0.tgz#fb7e4476a88e5b6ea1d121163f924bbc35a02b28"
+  dependencies:
+    "@uifabric/styling" ">=5.30.1 <6.0.0"
+    tslib "^1.7.1"
+
+"@uifabric/icons@^6.5.5":
   version "6.5.5"
   resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-6.5.5.tgz#5004e037295bcff0768b718a07d0bbd831c1d3a6"
   dependencies:
@@ -1149,7 +1264,13 @@
     "@uifabric/styling" "^7.11.2"
     tslib "^1.10.0"
 
-"@uifabric/merge-styles@^6.18.0", "@uifabric/merge-styles@^6.19.4":
+"@uifabric/merge-styles@>=5.17.1 <6.0.0":
+  version "5.17.1"
+  resolved "https://registry.yarnpkg.com/@uifabric/merge-styles/-/merge-styles-5.17.1.tgz#9325817069011efb5f425e0fd163a975d9a12a3c"
+  dependencies:
+    tslib "^1.7.1"
+
+"@uifabric/merge-styles@^6.19.4":
   version "6.19.4"
   resolved "https://registry.yarnpkg.com/@uifabric/merge-styles/-/merge-styles-6.19.4.tgz#986a068a6109d699831d3adedcf286a0e042cb58"
   dependencies:
@@ -1183,7 +1304,16 @@
   dependencies:
     tslib "^1.10.0"
 
-"@uifabric/styling@^6.48.0", "@uifabric/styling@^6.48.1", "@uifabric/styling@^6.50.7":
+"@uifabric/styling@>=5.30.1 <6.0.0", "@uifabric/styling@>=5.36.0 <6.0.0":
+  version "5.37.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-5.37.0.tgz#a7e47fa01a97921fecebd2031bb93d262258a555"
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/merge-styles" ">=5.17.1 <6.0.0"
+    "@uifabric/utilities" ">=5.34.2 <6.0.0"
+    tslib "^1.7.1"
+
+"@uifabric/styling@^6.50.7":
   version "6.50.7"
   resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-6.50.7.tgz#a07c6c88b5b50a5c9dc603b33d76b34ad6fcb507"
   dependencies:
@@ -1212,7 +1342,15 @@
     prop-types "^15.5.10"
     tslib "^1.7.1"
 
-"@uifabric/utilities@^6.40.1", "@uifabric/utilities@^6.41.0", "@uifabric/utilities@^6.41.7":
+"@uifabric/utilities@>=5.34.2 <6.0.0":
+  version "5.34.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-5.34.3.tgz#4cf46d5ad5c951c107a093ae2e603df4d4fe3b29"
+  dependencies:
+    "@uifabric/merge-styles" ">=5.17.1 <6.0.0"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
+
+"@uifabric/utilities@^6.41.7", "@uifabric/utilities@^6.45.2":
   version "6.45.2"
   resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-6.45.2.tgz#671696f8ac6c4db07500b5aed5181d7b07affb25"
   dependencies:
@@ -2212,6 +2350,10 @@ brace-expansion@^1.0.0, brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
+brace@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/brace/-/brace-0.11.1.tgz#4896fcc9d544eef45f4bb7660db320d3b379fe58"
+
 braces@^1.8.2:
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/braces/-/braces-1.8.5.tgz#ba77962e12dff969d6b76711e914b737857bf6a7"
@@ -2418,6 +2560,29 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+call-bind-apply-helpers@^1.0.1, call-bind-apply-helpers@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/call-bind-apply-helpers/-/call-bind-apply-helpers-1.0.2.tgz#4b5428c222be985d79c3d82657479dbe0b59b2d6"
+  dependencies:
+    es-errors "^1.3.0"
+    function-bind "^1.1.2"
+
+call-bind@^1.0.7, call-bind@^1.0.8:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.9.tgz#39a644700c80bc7d0ca9102fc6d1d43b2fd7eee7"
+  dependencies:
+    call-bind-apply-helpers "^1.0.2"
+    es-define-property "^1.0.1"
+    get-intrinsic "^1.3.0"
+    set-function-length "^1.2.2"
+
+call-bound@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/call-bound/-/call-bound-1.0.4.tgz#238de935d2a2a692928c538c7ccfa91067fd062a"
+  dependencies:
+    call-bind-apply-helpers "^1.0.2"
+    get-intrinsic "^1.3.0"
+
 caller-callsite@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/caller-callsite/-/caller-callsite-2.0.0.tgz#847e0fce0a223750a9a027c54b33731ad3154134"
@@ -2515,6 +2680,26 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
 chardet@^0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/chardet/-/chardet-0.7.0.tgz#90094849f0937f2eedc2425d0d28a9e5f0cbad9e"
+
+chart.js@2.7.3:
+  version "2.7.3"
+  resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-2.7.3.tgz#cdb61618830bf216dc887e2f7b1b3c228b73c57e"
+  dependencies:
+    chartjs-color "^2.1.0"
+    moment "^2.10.2"
+
+chartjs-color-string@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/chartjs-color-string/-/chartjs-color-string-0.6.0.tgz#1df096621c0e70720a64f4135ea171d051402f71"
+  dependencies:
+    color-name "^1.0.0"
+
+chartjs-color@^2.1.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/chartjs-color/-/chartjs-color-2.4.1.tgz#6118bba202fe1ea79dd7f7c0f9da93467296c3b0"
+  dependencies:
+    chartjs-color-string "^0.6.0"
+    color-convert "^1.9.3"
 
 chokidar@^2.0.0, chokidar@^2.1.2, chokidar@^2.1.8:
   version "2.1.8"
@@ -2679,7 +2864,7 @@ collection-visit@^1.0.0:
     map-visit "^1.0.0"
     object-visit "^1.0.0"
 
-color-convert@^1.9.0, color-convert@^1.9.1:
+color-convert@^1.9.0, color-convert@^1.9.1, color-convert@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/color-convert/-/color-convert-1.9.3.tgz#bb71850690e1f136567de629d2d5471deda4c1e8"
   dependencies:
@@ -2700,6 +2885,13 @@ color-string@^1.5.2:
     color-name "^1.0.0"
     simple-swizzle "^0.2.2"
 
+color-string@^1.6.0:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/color-string/-/color-string-1.9.1.tgz#4467f9146f036f855b764dfb5bf8582bf342c7a4"
+  dependencies:
+    color-name "^1.0.0"
+    simple-swizzle "^0.2.2"
+
 color-support@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/color-support/-/color-support-1.1.3.tgz#93834379a1cc9a0c61f82f52f0d04322251bd5a2"
@@ -2710,6 +2902,13 @@ color@^3.0.0:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
+
+color@^3.1.2:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/color/-/color-3.2.1.tgz#3544dc198caf4490c3ecc9a790b54fe9ff45e164"
+  dependencies:
+    color-convert "^1.9.3"
+    color-string "^1.6.0"
 
 colors@1.0.3:
   version "1.0.3"
@@ -2883,6 +3082,13 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     ripemd160 "^2.0.0"
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
+
+create-react-class@^15.6.0:
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.7.0.tgz#7499d7ca2e69bb51d13faf59bd04f0c65a1d6c1e"
+  dependencies:
+    loose-envify "^1.3.1"
+    object-assign "^4.1.1"
 
 cross-spawn@^3.0.0:
   version "3.0.1"
@@ -3148,7 +3354,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.8, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^3.1.0, debug@^3.2.6:
+debug@^3.1.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   dependencies:
@@ -3178,9 +3384,16 @@ decomment@~0.9.1:
   dependencies:
     esprima "4.0.1"
 
-deep-extend@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
+deep-equal@^1.0.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.1.2.tgz#78a561b7830eef3134c7f6f3a3d6af272a678761"
+  dependencies:
+    is-arguments "^1.1.1"
+    is-date-object "^1.0.5"
+    is-regex "^1.1.4"
+    object-is "^1.1.5"
+    object-keys "^1.1.1"
+    regexp.prototype.flags "^1.5.1"
 
 deep-is@~0.1.3:
   version "0.1.3"
@@ -3208,11 +3421,27 @@ defaults@^1.0.0:
   dependencies:
     clone "^1.0.2"
 
+define-data-property@^1.0.1, define-data-property@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/define-data-property/-/define-data-property-1.1.4.tgz#894dc141bb7d3060ae4366f6a0107e68fbe48c5e"
+  dependencies:
+    es-define-property "^1.0.0"
+    es-errors "^1.3.0"
+    gopd "^1.0.1"
+
 define-properties@^1.1.2, define-properties@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
   dependencies:
     object-keys "^1.0.12"
+
+define-properties@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/define-properties/-/define-properties-1.2.1.tgz#10781cc616eb951a80a034bafcaa7377f6af2b6c"
+  dependencies:
+    define-data-property "^1.0.1"
+    has-property-descriptors "^1.0.0"
+    object-keys "^1.1.1"
 
 define-property@^0.2.5:
   version "0.2.5"
@@ -3282,10 +3511,6 @@ detect-indent@^4.0.0:
   dependencies:
     repeating "^2.0.0"
 
-detect-libc@^1.0.2:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/detect-libc/-/detect-libc-1.0.3.tgz#fa137c4bd698edf55cd5cd02ac559f91a4c4ba9b"
-
 detect-newline@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
@@ -3346,6 +3571,14 @@ dot-prop@^5.2.0:
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.2.0.tgz#c34ecc29556dc45f1f4c22697b6f4904e0cc4fcb"
   dependencies:
     is-obj "^2.0.0"
+
+dunder-proto@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dunder-proto/-/dunder-proto-1.0.1.tgz#d7ae667e1dc83482f8b70fd0f6eefc50da30f58a"
+  dependencies:
+    call-bind-apply-helpers "^1.0.1"
+    es-errors "^1.3.0"
+    gopd "^1.2.0"
 
 duplexer2@0.0.2:
   version "0.0.2"
@@ -3484,6 +3717,20 @@ es-abstract@^1.17.0-next.1, es-abstract@^1.17.2, es-abstract@^1.17.5:
     object.assign "^4.1.0"
     string.prototype.trimleft "^2.1.1"
     string.prototype.trimright "^2.1.1"
+
+es-define-property@^1.0.0, es-define-property@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/es-define-property/-/es-define-property-1.0.1.tgz#983eb2f9a6724e9303f61addf011c72e09e0b0fa"
+
+es-errors@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/es-errors/-/es-errors-1.3.0.tgz#05f75a25dab98e4fb1dcd5e1472c0546d5057c8f"
+
+es-object-atoms@^1.0.0, es-object-atoms@^1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/es-object-atoms/-/es-object-atoms-1.1.2.tgz#a2d0b373205724dfa525d23b0c3e1b1ca582c99b"
+  dependencies:
+    es-errors "^1.3.0"
 
 es-to-primitive@^1.2.1:
   version "1.2.1"
@@ -3661,6 +3908,10 @@ event-stream@^3.3.2:
     split "^1.0.1"
     stream-combiner "^0.2.2"
     through "^2.3.8"
+
+eventemitter3@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-2.0.3.tgz#b5e1079b59fb5e1ba2771c0a993be060a58c99ba"
 
 events@^3.0.0:
   version "3.1.0"
@@ -3875,6 +4126,10 @@ fast-deep-equal@^1.0.0:
 fast-deep-equal@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.1.tgz#545145077c501491e33b15ec408c294376e94ae4"
+
+fast-diff@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/fast-diff/-/fast-diff-1.1.2.tgz#4b62c42b8e03de3f848460b639079920695d0154"
 
 fast-json-stable-stringify@^2.0.0:
   version "2.1.0"
@@ -4197,6 +4452,14 @@ function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
 
+function-bind@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.2.tgz#2c02d864d97f3ea6c8830c464cbd11ab6eab7a1c"
+
+functions-have-names@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -4231,6 +4494,28 @@ generic-names@^1.0.3:
 get-caller-file@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.3.tgz#f978fa4c90d1dfe7ff2d6beda2a515e713bdcf4a"
+
+get-intrinsic@^1.2.4, get-intrinsic@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.3.0.tgz#743f0e3b6964a93a5491ed1bffaae054d7f98d01"
+  dependencies:
+    call-bind-apply-helpers "^1.0.2"
+    es-define-property "^1.0.1"
+    es-errors "^1.3.0"
+    es-object-atoms "^1.1.1"
+    function-bind "^1.1.2"
+    get-proto "^1.0.1"
+    gopd "^1.2.0"
+    has-symbols "^1.1.0"
+    hasown "^2.0.2"
+    math-intrinsics "^1.1.0"
+
+get-proto@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/get-proto/-/get-proto-1.0.1.tgz#150b3f2743869ef3e851ec0c49d15b1d14d00ee1"
+  dependencies:
+    dunder-proto "^1.0.1"
+    es-object-atoms "^1.0.0"
 
 get-stdin@^4.0.1:
   version "4.0.1"
@@ -4426,6 +4711,10 @@ glogg@^1.0.0:
   resolved "https://registry.yarnpkg.com/glogg/-/glogg-1.0.2.tgz#2d7dd702beda22eb3bffadf880696da6d846313f"
   dependencies:
     sparkles "^1.0.0"
+
+gopd@^1.0.1, gopd@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.2.0.tgz#89f56b8217bdbc8802bd299df6d7f1081d7e51a1"
 
 graceful-fs@^3.0.0:
   version "3.0.12"
@@ -4628,9 +4917,25 @@ has-gulplog@^0.1.0:
   dependencies:
     sparkles "^1.0.0"
 
+has-property-descriptors@^1.0.0, has-property-descriptors@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz#963ed7d071dc7bf5f084c5bfbe0d1b6222586854"
+  dependencies:
+    es-define-property "^1.0.0"
+
 has-symbols@^1.0.0, has-symbols@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
+
+has-symbols@^1.0.3, has-symbols@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/has-symbols/-/has-symbols-1.1.0.tgz#fc9c6a783a084951d0b971fe1018de813707a338"
+
+has-tostringtag@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/has-tostringtag/-/has-tostringtag-1.0.2.tgz#2cdc42d40bef2e5b4eeab7c01a73c54ce7ab5abc"
+  dependencies:
+    has-symbols "^1.0.3"
 
 has-unicode@^2.0.0:
   version "2.0.1"
@@ -4682,6 +4987,12 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
+
+hasown@^2.0.2:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/hasown/-/hasown-2.0.4.tgz#8c62d8cb90beb2aad5d0a5b67581ad9854c3f003"
+  dependencies:
+    function-bind "^1.1.2"
 
 he@1.2.x:
   version "1.2.0"
@@ -4782,9 +5093,9 @@ http-errors@~1.7.2:
     statuses ">= 1.5.0 < 2"
     toidentifier "1.0.0"
 
-"http-parser-js@>=0.4.0 <0.4.11":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.10.tgz#92c9c1374c35085f75db359ec56cc257cbb93fa4"
+http-parser-js@>=0.5.1:
+  version "0.5.10"
+  resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.5.10.tgz#b3277bd6d7ed5588e20ea73bf724fcbe44609075"
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -4815,7 +5126,7 @@ iconv-lite@0.4.23:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
+iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@~0.4.13:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
   dependencies:
@@ -4838,12 +5149,6 @@ ieee754@^1.1.4:
 iferr@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/iferr/-/iferr-0.1.5.tgz#c60eed69e6d8fdb6b3104a1fcbca1c192dc5b501"
-
-ignore-walk@^3.0.1:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/ignore-walk/-/ignore-walk-3.0.3.tgz#017e2447184bfeade7c238e4aefdd1e8f95b1e37"
-  dependencies:
-    minimatch "^3.0.4"
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -4920,7 +5225,7 @@ inherits@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
 
-ini@^1.3.4, ini@~1.3.0:
+ini@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
@@ -4991,6 +5296,13 @@ is-accessor-descriptor@^1.0.0:
   dependencies:
     kind-of "^6.0.0"
 
+is-arguments@^1.1.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/is-arguments/-/is-arguments-1.2.0.tgz#ad58c6aecf563b78ef2bf04df540da8f5d7d8e1b"
+  dependencies:
+    call-bound "^1.0.2"
+    has-tostringtag "^1.0.2"
+
 is-arrayish@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz#77c99840527aa8ecb1a8ba697b80645a7a926a9d"
@@ -5045,6 +5357,13 @@ is-data-descriptor@^1.0.0:
 is-date-object@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/is-date-object/-/is-date-object-1.0.2.tgz#bda736f2cd8fd06d32844e7743bfa7494c3bfd7e"
+
+is-date-object@^1.0.5:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/is-date-object/-/is-date-object-1.1.0.tgz#ad85541996fc7aa8b2729701d27b7319f95d82f7"
+  dependencies:
+    call-bound "^1.0.2"
+    has-tostringtag "^1.0.2"
 
 is-descriptor@^0.1.0:
   version "0.1.6"
@@ -5193,6 +5512,15 @@ is-regex@^1.0.5:
   resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.0.5.tgz#39d589a358bf18967f726967120b8fc1aed74eae"
   dependencies:
     has "^1.0.3"
+
+is-regex@^1.1.4:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/is-regex/-/is-regex-1.2.1.tgz#76d70a3ed10ef9be48eb577887d74205bf0cad22"
+  dependencies:
+    call-bound "^1.0.2"
+    gopd "^1.2.0"
+    has-tostringtag "^1.0.2"
+    hasown "^2.0.2"
 
 is-relative@^1.0.0:
   version "1.0.0"
@@ -6291,7 +6619,7 @@ lodash.escape@^3.0.0:
   dependencies:
     lodash._root "^3.0.0"
 
-lodash.get@^4.0.0:
+lodash.get@^4.0.0, lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
@@ -6303,7 +6631,7 @@ lodash.isarray@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
 
-lodash.isequal@^4.0.0:
+lodash.isequal@^4.0.0, lodash.isequal@^4.1.1:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
@@ -6322,6 +6650,10 @@ lodash.memoize@^4.1.2:
 lodash.merge@~4.6.2:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+
+lodash.omit@^4.5.0:
+  version "4.18.0"
+  resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.18.0.tgz#d16d96a68db2c803c45da9450fdac953c59a1858"
 
 lodash.restparam@^3.0.0:
   version "3.6.1"
@@ -6359,6 +6691,10 @@ lodash.templatesettings@^3.0.0:
 lodash.uniq@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+
+lodash@4.17.4:
+  version "4.17.4"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
 lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@~4.17.12, lodash@~4.17.15, lodash@~4.17.5:
   version "4.17.15"
@@ -6461,6 +6797,10 @@ matchdep@^2.0.0:
     micromatch "^3.0.4"
     resolve "^1.4.0"
     stack-trace "0.0.10"
+
+math-intrinsics@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/math-intrinsics/-/math-intrinsics-1.1.0.tgz#a0dd74be81e2aa5c2f27e65ce283605ee4e2b7f9"
 
 math-random@^1.0.1:
   version "1.0.4"
@@ -6723,6 +7063,10 @@ mkdirp@0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+moment@^2.10.2:
+  version "2.30.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -6818,14 +7162,6 @@ ndjson@^1.5.0:
     minimist "^1.2.0"
     split2 "^2.1.0"
     through2 "^2.0.3"
-
-needle@^2.2.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/needle/-/needle-2.4.1.tgz#14af48732463d7475696f937626b1b993247a56a"
-  dependencies:
-    debug "^3.2.6"
-    iconv-lite "^0.4.4"
-    sax "^1.2.4"
 
 negotiator@0.6.2:
   version "0.6.2"
@@ -6936,21 +7272,6 @@ node-notifier@~5.0.2:
     shellwords "^0.1.0"
     which "^1.2.12"
 
-node-pre-gyp@*:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
-  dependencies:
-    detect-libc "^1.0.2"
-    mkdirp "^0.5.1"
-    needle "^2.2.1"
-    nopt "^4.0.1"
-    npm-packlist "^1.1.6"
-    npmlog "^4.0.2"
-    rc "^1.2.7"
-    rimraf "^2.6.1"
-    semver "^5.3.0"
-    tar "^4.4.2"
-
 node-releases@^1.1.53:
   version "1.1.53"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.53.tgz#2d821bfa499ed7c5dffc5e2f28c88e78a08ee3f4"
@@ -6989,13 +7310,6 @@ node-zip@~1.1.1:
   dependencies:
     abbrev "1"
 
-nopt@^4.0.1:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/nopt/-/nopt-4.0.3.tgz#a375cad9d02fd921278d954c2254d5aa57e15e48"
-  dependencies:
-    abbrev "1"
-    osenv "^0.1.4"
-
 normalize-package-data@^2.0.0, normalize-package-data@^2.3.2, normalize-package-data@^2.3.4:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
@@ -7029,13 +7343,7 @@ now-and-later@^2.0.0:
   dependencies:
     once "^1.3.2"
 
-npm-bundled@^1.0.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/npm-bundled/-/npm-bundled-1.1.1.tgz#1edd570865a94cdb1bc8220775e29466c9fb234b"
-  dependencies:
-    npm-normalize-package-bin "^1.0.1"
-
-npm-normalize-package-bin@^1.0.0, npm-normalize-package-bin@^1.0.1:
+npm-normalize-package-bin@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/npm-normalize-package-bin/-/npm-normalize-package-bin-1.0.1.tgz#6e79a41f23fd235c0623218228da7d9c23b8f6e2"
 
@@ -7048,21 +7356,13 @@ npm-package-arg@~6.1.0:
     semver "^5.6.0"
     validate-npm-package-name "^3.0.0"
 
-npm-packlist@^1.1.6:
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/npm-packlist/-/npm-packlist-1.4.8.tgz#56ee6cc135b9f98ad3d51c1c95da22bbb9b2ef3e"
-  dependencies:
-    ignore-walk "^3.0.1"
-    npm-bundled "^1.0.1"
-    npm-normalize-package-bin "^1.0.1"
-
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
   dependencies:
     path-key "^2.0.0"
 
-"npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0, npmlog@^4.0.2:
+"npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/npmlog/-/npmlog-4.1.2.tgz#08a7f2a8bf734604779a9efa4ad5cc717abb954b"
   dependencies:
@@ -7112,6 +7412,13 @@ object-copy@^0.1.0:
 object-inspect@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.7.0.tgz#f4f6bd181ad77f006b5ece60bd0b6f398ff74a67"
+
+object-is@^1.1.5:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/object-is/-/object-is-1.1.6.tgz#1a6a53aed2dd8f7e6775ff870bea58545956ab07"
+  dependencies:
+    call-bind "^1.0.7"
+    define-properties "^1.2.1"
 
 object-keys@^1.0.11, object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
@@ -7188,17 +7495,29 @@ office-ui-fabric-core@9.6.1-fluent2:
   version "9.6.1-fluent2"
   resolved "https://registry.yarnpkg.com/office-ui-fabric-core/-/office-ui-fabric-core-9.6.1-fluent2.tgz#ad90db192787381c9b877358a914be8781fa6e49"
 
-office-ui-fabric-react@6.189.2:
-  version "6.189.2"
-  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-6.189.2.tgz#e2d12a2c7847be8524ce8be95585987fd3de18bb"
+office-ui-fabric-react@5.131.0:
+  version "5.131.0"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-5.131.0.tgz#8084e3ad4963851412dfc15936ee9814a668a59b"
   dependencies:
     "@microsoft/load-themed-styles" "^1.7.13"
-    "@uifabric/foundation" "^0.7.6"
-    "@uifabric/icons" "^6.5.2"
-    "@uifabric/merge-styles" "^6.18.0"
+    "@uifabric/icons" ">=5.8.0 <6.0.0"
+    "@uifabric/merge-styles" ">=5.17.1 <6.0.0"
+    "@uifabric/styling" ">=5.36.0 <6.0.0"
+    "@uifabric/utilities" ">=5.34.2 <6.0.0"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
+
+office-ui-fabric-react@6.214.0:
+  version "6.214.0"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-6.214.0.tgz#0af640c730c9d4fcaa7a54f04f01e610494f9736"
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/foundation" "^0.8.3"
+    "@uifabric/icons" "^6.5.5"
+    "@uifabric/merge-styles" "^6.19.4"
     "@uifabric/set-version" "^1.1.3"
-    "@uifabric/styling" "^6.48.0"
-    "@uifabric/utilities" "^6.40.1"
+    "@uifabric/styling" "^6.50.7"
+    "@uifabric/utilities" "^6.45.2"
     prop-types "^15.5.10"
     tslib "^1.7.1"
 
@@ -7326,7 +7645,7 @@ os-tmpdir@^1.0.0, os-tmpdir@^1.0.1, os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
-osenv@0, osenv@^0.1.4, osenv@^0.1.5:
+osenv@0, osenv@^0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/osenv/-/osenv-0.1.5.tgz#85cdfafaeb28e8677f416e287592b5f3f49ea410"
   dependencies:
@@ -7408,6 +7727,10 @@ param-case@2.1.x:
   resolved "https://registry.yarnpkg.com/param-case/-/param-case-2.1.1.tgz#df94fd8cf6531ecf75e6bef9a0858fbc72be2247"
   dependencies:
     no-case "^2.2.0"
+
+parchment@^1.1.2, parchment@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/parchment/-/parchment-1.1.4.tgz#aeded7ab938fe921d4c34bc339ce1168bc2ffde5"
 
 parse-asn1@^5.0.0:
   version "5.1.5"
@@ -8057,6 +8380,14 @@ prop-types@^15.5.10, prop-types@^15.6.2, prop-types@^15.7.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
+prop-types@^15.5.8:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 proxy-addr@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.6.tgz#fdc2336505447d3f2f2c638ed272caf614bbb2bf"
@@ -8145,6 +8476,25 @@ querystring@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
 
+quill-delta@^3.6.2:
+  version "3.6.3"
+  resolved "https://registry.yarnpkg.com/quill-delta/-/quill-delta-3.6.3.tgz#b19fd2b89412301c60e1ff213d8d860eac0f1032"
+  dependencies:
+    deep-equal "^1.0.1"
+    extend "^3.0.2"
+    fast-diff "1.1.2"
+
+quill@^1.2.6:
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/quill/-/quill-1.3.7.tgz#da5b2f3a2c470e932340cdbf3668c9f21f9286e8"
+  dependencies:
+    clone "^2.1.1"
+    deep-equal "^1.0.1"
+    eventemitter3 "^2.0.3"
+    extend "^3.0.2"
+    parchment "^1.1.4"
+    quill-delta "^3.6.2"
+
 ramda@^0.25.0:
   version "0.25.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.25.0.tgz#8fdf68231cffa90bc2f9460390a0cb74a29b29a9"
@@ -8199,14 +8549,18 @@ raw-loader@~0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/raw-loader/-/raw-loader-0.5.1.tgz#0c3d0beaed8a01c966d9787bf778281252a979aa"
 
-rc@^1.2.7:
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/rc/-/rc-1.2.8.tgz#cd924bf5200a075b83c188cd6b9e211b7fc0d3ed"
+react-ace@5.8.0:
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/react-ace/-/react-ace-5.8.0.tgz#872d9ee8b664300ed5ab9edac6234bbe90836836"
   dependencies:
-    deep-extend "^0.6.0"
-    ini "~1.3.0"
-    minimist "^1.2.0"
-    strip-json-comments "~2.0.1"
+    brace "^0.11.0"
+    lodash.get "^4.4.2"
+    lodash.isequal "^4.1.1"
+    prop-types "^15.5.8"
+
+react-dom-factories@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-dom-factories/-/react-dom-factories-1.0.2.tgz#eb7705c4db36fb501b3aa38ff759616aa0ff96e0"
 
 react-dom@16.8.5:
   version "16.8.5"
@@ -8217,9 +8571,21 @@ react-dom@16.8.5:
     prop-types "^15.6.2"
     scheduler "^0.13.5"
 
-react-is@^16.8.1:
+react-is@^16.13.1, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+
+react-quill@1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/react-quill/-/react-quill-1.3.3.tgz#95b8e088ad4e4acc6c79c2f85bdc0460eebe08eb"
+  dependencies:
+    "@types/quill" "1.3.10"
+    "@types/react" "*"
+    create-react-class "^15.6.0"
+    lodash "^4.17.4"
+    prop-types "^15.5.10"
+    quill "^1.2.6"
+    react-dom-factories "^1.0.0"
 
 react@16.8.5:
   version "16.8.5"
@@ -8399,6 +8765,17 @@ regex-not@^1.0.0, regex-not@^1.0.2:
   dependencies:
     extend-shallow "^3.0.2"
     safe-regex "^1.1.0"
+
+regexp.prototype.flags@^1.5.1:
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.5.4.tgz#1ad6c62d44a259007e55b3970e00f746efbcaa19"
+  dependencies:
+    call-bind "^1.0.8"
+    define-properties "^1.2.1"
+    es-errors "^1.3.0"
+    get-proto "^1.0.1"
+    gopd "^1.2.0"
+    set-function-name "^2.0.2"
 
 regexpu-core@^4.6.0:
   version "4.7.0"
@@ -8856,6 +9233,26 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
 
+set-function-length@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/set-function-length/-/set-function-length-1.2.2.tgz#aac72314198eaed975cf77b2c3b6b880695e5449"
+  dependencies:
+    define-data-property "^1.1.4"
+    es-errors "^1.3.0"
+    function-bind "^1.1.2"
+    get-intrinsic "^1.2.4"
+    gopd "^1.0.1"
+    has-property-descriptors "^1.0.2"
+
+set-function-name@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/set-function-name/-/set-function-name-2.0.2.tgz#16a705c5a0dc2f5e638ca96d8a8cd4e1c2b90985"
+  dependencies:
+    define-data-property "^1.1.4"
+    es-errors "^1.3.0"
+    functions-have-names "^1.2.3"
+    has-property-descriptors "^1.0.2"
+
 set-value@^2.0.0, set-value@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/set-value/-/set-value-2.0.1.tgz#a18d40530e6f07de4228c7defe4227af8cad005b"
@@ -9272,10 +9669,6 @@ strip-indent@^1.0.1:
   dependencies:
     get-stdin "^4.0.1"
 
-strip-json-comments@~2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
-
 stylehacks@^4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/stylehacks/-/stylehacks-4.0.3.tgz#6718fcaf4d1e07d8a1318690881e8d96726a71d5"
@@ -9369,7 +9762,7 @@ tar@^2.0.0:
     fstream "^1.0.12"
     inherits "2"
 
-tar@^4.4.2, tar@~4.4.1:
+tar@~4.4.1:
   version "4.4.13"
   resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
   dependencies:
@@ -9615,17 +10008,17 @@ trim-right@^1.0.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/true-case-path/-/true-case-path-2.2.1.tgz#c5bf04a5bbec3fd118be4084461b3a27c4d796bf"
 
-tslib@1.10.0:
+tslib@1.10.0, tslib@~1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
+
+tslib@1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.8.1.tgz#6946af2d1d651a7b1863b531d6e5afa41aa44eac"
 
 tslib@^1.10.0, tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.11.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.11.1.tgz#eb15d128827fbee2841549e171f45ed338ac7e35"
-
-tslib@~1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
 
 tslint-microsoft-contrib@~5.2.1:
   version "5.2.1"
@@ -10222,10 +10615,10 @@ webpack@~4.35.3:
     webpack-sources "^1.3.0"
 
 websocket-driver@>=0.5.1:
-  version "0.7.3"
-  resolved "https://registry.yarnpkg.com/websocket-driver/-/websocket-driver-0.7.3.tgz#a2d4e0d4f4f116f1e6297eba58b05d430100e9f9"
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/websocket-driver/-/websocket-driver-0.7.5.tgz#569d22764ab21f2de20af0e74b411e8ae5a0fa46"
   dependencies:
-    http-parser-js ">=0.4.0 <0.4.11"
+    http-parser-js ">=0.5.1"
     safe-buffer ">=5.1.0"
     websocket-extensions ">=0.1.1"
 
@@ -10242,6 +10635,10 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
 whatwg-fetch@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.3.tgz#9c84ec2dcf68187ff00bc64e1274b442176e1c84"
+
+whatwg-fetch@2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
 
 whatwg-fetch@>=0.10.0:
   version "3.0.0"
