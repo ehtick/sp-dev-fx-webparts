@@ -1,10 +1,10 @@
-# react-powerautomate-approvals
+# Power Automate Approvals
 
 ## Summary
 
 The Power Automate Approvals web part is a SharePoint Framework (SPFx) solution that demonstrates how to consume the Microsoft Graph Approvals API (beta) using the native MSGraphClientV3 HTTP client. It renders a full approvals dashboard - approvals waiting on you, requests you've raised, and their history - with a per-item detail panel showing an activity timeline built from approver responses and reassignment history.
 
-### Key Features:
+### Key Features
 
 - **Approvals Dashboard**: Four stat tiles (Requests Awaiting My Action, Approved / Rejected by Me, My Requests - Pending, My Requests - Past) plus a merged, newest-first Recent Activity feed
 - **Role-Aware Bucketing**: Splits every approval item into the four buckets using `viewPoint.roles` (approver vs. owner) combined with `state`, done client-side after fetching every page since the API rejects a server-side `$filter` on the nested `viewPoint/roles` collection
@@ -71,8 +71,7 @@ This sample is optimally compatible with the following environment configuration
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.0     | July 7, 2026     | Initial commit |
-
+| 1.0     | July 7, 2026     | Initial commit  |
 
 ## Minimal Path to Awesome
 
